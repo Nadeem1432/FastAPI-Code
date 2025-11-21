@@ -11,7 +11,6 @@ This API allows users to:
 
 ## 🚀 Features
 - **CRUD Operations** for addresses.
-- **Distance-based filtering** using `geopy`.
 - **SQLite database** for persistence.
 - **Swagger UI** for API documentation.
 
@@ -24,5 +23,33 @@ This API allows users to:
 - https://geopy.readthedocs.io/
 
 ---
+## ⚙️ Setup
 
-## 📂 Project Structure
+Follow these steps to set up the project:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/fastAPI-AddressBook.git
+    cd fastAPI-AddressBook
+    ```
+
+2. **Create and activate a virtual environment**:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+3. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the application**:
+    ```bash
+    uvicorn main:app --reload
+    ```
+
+5. **Access the API documentation**:
+    Open your browser and navigate to `http://127.0.0.1:8000/docs` to explore the Swagger UI.
+
+---
