@@ -20,7 +20,6 @@ This API allows users to:
 - https://fastapi.tiangolo.com/
 - [SQLModel](https://sqlmodel.tiangolo.com/)
 - https://www.sqlite.org/
-- https://geopy.readthedocs.io/
 
 ---
 ## ⚙️ Setup
