@@ -28,8 +28,8 @@ Follow these steps to set up the project:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/fastAPI-AddressBook.git
-    cd fastAPI-AddressBook
+    git clone https://github.com/Nadeem1432/FastAPI-Code.git
+    cd FastAPI-Code
     ```
 
 2. **Create and activate a virtual environment**:
@@ -45,7 +45,7 @@ Follow these steps to set up the project:
 
 4. **Run the application**:
     ```bash
-    uvicorn main:app --reload
+    uvicorn app.main:app --reload
     ```
 
 5. **Access the API documentation**:
